@@ -47,7 +47,7 @@ const Filter: React.FC<FilterProps> = ({ data, name, valueKey }) => {
                                     selectedValue === filter.id && "bg-black text-white")}
                             onClick={() => onClick(filter.id)}
                         >
-
+                            {filter.name}
                         </Button>
                     </div>
                 ))}
